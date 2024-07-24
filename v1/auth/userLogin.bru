@@ -1,0 +1,16 @@
+meta {
+  name: userLogin
+  type: http
+  seq: 1
+}
+
+get {
+  url: http://localhost:5002/v1/auth/userLogin
+  body: none
+  auth: none
+}
+
+headers {
+  username: byu
+  password: piybip
+}

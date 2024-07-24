@@ -18,7 +18,11 @@ This is a bruno project to test Interact's api. Bruno is a postman/insomnia alte
 
 
 ## Version History
-# 1.0 (1.2024.02.07)
+### 1.0 (1.2024.02.07)
 - Initial release
 - Added badges route
 - added readme
+
+### 1.0.1 (1.2024.07.24) 
+- added follow routes
+- added auth userlogin route
