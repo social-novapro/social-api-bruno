@@ -26,3 +26,11 @@ This is a bruno project to test Interact's api. Bruno is a postman/insomnia alte
 ### 1.0.1 (1.2024.07.24) 
 - added follow routes
 - added auth userlogin route
+- ()shouldve been 1.0, b2
+
+### 1.0 (3.2024.11.10) 
+- Added article routes (for future release)
+- Added feed route 
+- Added notifications, preferences, subscriptions routes for 1.7
+- Added getpost route
+- Added users/update, get, getUpdate routes

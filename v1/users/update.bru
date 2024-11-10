@@ -1,0 +1,27 @@
+meta {
+  name: update
+  type: http
+  seq: 6
+}
+
+post {
+  url: http://localhost:5002/v1/users/update
+  body: formUrlEncoded
+  auth: none
+}
+
+body:form-urlencoded {
+  username: dan2364755!
+  badUsername: heh
+  displayName: Daniel Kravec
+  statusTitle: very cool
+  description: this is my new description
+  profileURL: https://image.com/
+  pronouns: he/him
+  userAge: 1312117881095
+}
+
+body:multipart-form {
+  username: dan
+  newUsername: dan
+}

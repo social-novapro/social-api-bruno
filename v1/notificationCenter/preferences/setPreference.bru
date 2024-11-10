@@ -1,0 +1,22 @@
+meta {
+  name: setPreference
+  type: http
+  seq: 4
+}
+
+post {
+  url: http://localhost:5002/v1/notificationCenter/preferences/402
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "enabled": true,
+    "systemType": 1
+  }
+}
+
+body:multipart-form {
+  changes: [{},{}]
+}
